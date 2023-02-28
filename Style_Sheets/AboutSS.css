@@ -1,0 +1,228 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    color: #34341C;
+
+}
+
+h2 {
+
+    color: #C17667;
+    margin-bottom: 1vh;
+    font-size: 2.5vh;
+
+}
+
+/*Top Menu Styling*/
+.brand {
+
+    font-family: 'Pridi';
+    font-size: 32px;
+    color: white;
+    padding: 20px;
+    letter-spacing: 1px;
+
+}
+
+#top_navigation_bar {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #519872;
+
+}
+
+#top_navigation_links li{
+
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 20px;
+
+}
+
+#top_navigation_links a{
+
+    color: white;
+    text-decoration: none;
+    padding: 2px;
+    border-radius: 8px ;
+    transition: .3s ease;
+    transition-property: background-color, border-radius;
+
+}
+
+#top_navigation_links a:hover {
+
+    background-color: #3B5249;
+    border-radius: 8px ;
+
+}
+/* End of Top Menu Styling*/
+
+/* Top Banner */
+#page_title_banner {
+
+    margin-top: 5vh;
+    background-image: url(https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-size: cover;
+    height: 36vh;
+    padding: 2vh;
+    
+}
+
+#page_title_banner article {
+
+    background-color: #C17667;
+    width: 60vh;
+    height: 8vh;
+    margin: auto;
+    border-radius: 12px;
+    text-align: center;
+    padding: 2vh;
+    margin-top: 12vh;
+
+}
+
+#page_title_banner h2 {
+
+    font-size: 6vh;
+    color: #EAE1DF;
+
+}
+/* End of Top Banner */
+
+/* Orgins */
+#our_origins {
+
+    width: 80%;
+    height: 56vh;
+    margin: auto;
+    display: flex;
+
+}
+
+#our_origins #origin_desc {
+
+    background-color: #EAE1DF;
+    border-radius: 12px;
+    height: 40vh;
+    width: 55%;
+    float: inline-start;
+    margin: auto;
+    padding: 2vh;
+
+}
+
+#our_origins #map_placement_holder {
+
+    background-color: black;
+    border-radius: 12px;
+    height: 40vh;
+    width: 35%;
+    float: inline-end;
+    margin: auto;
+
+}
+
+#meet_the_team {
+
+    width: 75%;
+    height: 56vh;
+    margin: auto;
+    background-color: #EAE1DF;
+    border-radius: 12px;
+    margin-bottom: 8vh;
+    padding: 2vh;
+
+}
+
+#meet_the_team video {
+
+    border-radius: 12px;
+    margin-top: 2vh;
+    margin-left: 25%;
+
+}
+
+/* End of Origins */
+
+
+
+/* Footer Styling*/
+footer {
+
+    background-color: #519872;
+    size: 391px;
+    padding: 2vh;
+
+}
+
+#navigation_and_info {
+
+    justify-content:space-around;
+    display: flex;
+
+}
+
+#nav_links a {
+
+    color: white;
+    text-decoration: none;
+    padding: 2px;
+    border-radius: 8px ;
+    transition: .3s ease;
+    transition-property: background-color, border-radius;
+
+}
+
+#nav_links a:hover {
+
+    background-color: #3B5249;
+    border-radius: 8px ;
+
+}
+
+#nav_links li {
+
+    list-style-type: none;
+    margin: 4px;
+
+}
+
+#socials li {
+
+    list-style-type: none;
+    padding-left: 4vh;
+
+}
+
+.social_links {
+
+    width: 32px;
+    height: 32px;
+    margin: 0.2vh;
+    background-color: #519872;
+    border: transparent;
+    border-radius: 12px;
+    transition: 0.3s ease;
+
+}
+
+.social_links:hover {
+
+    background-color: #3B5249;
+    border-radius: 12px;
+    cursor: pointer;
+
+}
+
+address {
+
+    color: white;
+
+}
+/* End of Footer Styling*/

@@ -1,0 +1,367 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    color: #34341C;
+
+}
+
+h2 {
+
+    color: #C17667;
+    margin-bottom: 1vh;
+    font-size: 3vh;
+    font-weight: bold;
+
+}
+
+/*Top Menu Styling*/
+.brand {
+
+    font-family: 'Pridi';
+    font-size: 32px;
+    color: white;
+    padding: 20px;
+    letter-spacing: 1px;
+
+}
+
+#top_navigation_bar {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #519872;
+}
+
+#top_navigation_links li{
+
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 20px;
+
+}
+
+#top_navigation_links a{
+
+    color: white;
+    text-decoration: none;
+    padding: 2px;
+    border-radius: 8px ;
+    transition: .3s ease;
+    transition-property: background-color, border-radius;
+
+}
+
+#top_navigation_links a:hover {
+
+    background-color: #3B5249;
+    border-radius: 8px ;
+
+}
+/* End of Top Menu Styling*/
+
+/* Introductory Banner Styling */
+#introductory_banner {
+
+    margin-top: 5vh;
+    margin-bottom: 8vh;
+    padding: 2vh;
+    background: url(https://cdn.pixabay.com/photo/2020/04/30/05/20/nature-5111414_960_720.jpg);
+    background-position: center;
+    height: 36vh;
+
+}
+
+#product_description {
+
+    float: inline-start;
+    background-color: #EAE1DF;
+    border-radius: 12px;
+    width: 48vh;
+    height: 24vh;
+    padding: 2vh;
+    margin-top: 4vh;
+    margin-left: 16vh;
+    margin-bottom: 4vh;
+
+}
+
+/* End of Introductory Banner Styling */
+
+/* Demeter Features Styling */
+#features {
+
+    background-color: #EAE1DF;
+    border-radius: 12px;
+    float: right;
+    padding: 2vh;
+
+}
+
+#features_list li {
+
+    list-style-type: none;
+    padding-bottom: 2vh;
+
+}
+
+#features_list li:before {
+
+    content: 'eco';
+    font-family: 'Material Icons';
+    color: #C17667;
+    font-size: 16px;
+    padding-right: 1vh;
+
+}
+/* End of Demeter Features Styling */
+
+/* Pot Style Showcase */
+#style_showcase {
+
+    background-color: #EAE1DF;
+    border-radius: 12px;
+    width: 147vh;
+    height: 40vh;
+    padding: 2vh;
+    margin: auto;
+    margin-bottom: 8vh;
+
+}
+
+#card_container {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 32vh;
+
+}
+
+.card {
+
+    position: relative;
+    width: 24vh;
+    height: 16vh;
+    background-color: #C17667;
+    border-radius: 20px;
+    transition: 0.3s ease;
+    cursor:pointer;
+
+}
+
+.card:hover {
+
+    height: 28vh;
+
+}
+
+.card_image {
+
+    position: absolute;
+    left: 50%;
+    top: -25%;
+    transform: translateX(-50%);
+    width: 14vh;
+    height: 14vh;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.3s;
+
+}
+
+.card_image img {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /*Stops stretching of image*/
+
+}
+
+.card:hover .card_image {
+
+    width: 18vh;
+    height: 18vh;
+
+}
+
+.card .card_description {
+
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.card .card_description .details {
+
+    padding: 3vh;
+    width: 100%;
+    transition: 0.3s;
+    transform: translateY(11vh);
+
+}
+
+.card:hover .card_description .details {
+
+    transform: translateY(0vh);
+
+}
+
+.card_description h4 span {
+
+    color: white;
+    opacity: 0.8;
+    padding-left: 3vh;
+
+}
+
+/* End of Pot Style Showcase */
+
+/* Newsletter Sign up Styling */
+#newsletter_signup
+{
+
+    background-color: #EAE1DF;
+    border-radius: 12px;
+    padding: 2vh;
+    width: 100vh;
+    height: 24vh;
+    display: block; 
+    margin: 0 auto;
+    justify-content: center;
+
+}
+
+#newsletter_signup button {
+
+    color: #EAE1DF;
+    background-color: #C17667;
+    border-radius: 12px;
+    width: 56vh;
+    height: 4vh;
+    padding: 2px;
+    display: block; 
+    margin: auto;
+    margin-top: 2vh;
+    border: #C17667;
+    transition: .3s ease;
+    transition-property: opacity;
+
+}
+
+#newsletter_signup button:hover {
+
+    opacity: 0.8;
+
+}
+
+#email_prompt {
+
+    margin-left: 21vh;
+
+}
+
+#email_entry {
+
+    width: 56vh;
+    height: 4vh;
+    padding: 1vh;
+    margin-left: 21vh;
+    font-size: 16px;
+    border-radius: 12px;
+    border: white;
+
+}
+/* End of Newsletter Sign up Styling */
+
+/* Footer Styling*/
+footer {
+
+    margin-top: 8vh;
+    background-color: #519872;
+    size: 391px;
+    padding: 2vh;
+
+}
+
+footer h3 {
+
+    color: white;
+    margin-bottom: 1vh;
+
+}
+
+#navigation_and_info {
+
+    justify-content:space-around;
+    display: flex;
+
+}
+
+#nav_links a {
+
+    color: white;
+    text-decoration: none;
+    padding: 2px;
+    border-radius: 8px ;
+    transition: .3s ease;
+    transition-property: background-color, border-radius;
+
+}
+
+#nav_links a:hover {
+
+    background-color: #3B5249;
+    border-radius: 8px ;
+
+}
+
+#nav_links li {
+
+    list-style-type: none;
+    margin: 4px;
+
+}
+
+#socials li {
+
+    list-style-type: none;
+    padding-left: 4vh;
+
+}
+
+.social_links {
+
+    width: 32px;
+    height: 32px;
+    margin: 0.2vh;
+    background-color: #519872;
+    border: transparent;
+    border-radius: 12px;
+    transition: 0.3s ease;
+
+}
+
+.social_links:hover {
+
+    background-color: #3B5249;
+    border-radius: 12px;
+    cursor: pointer;
+
+}
+
+address {
+
+    color: white;
+
+}
+/* End of Footer Styling*/

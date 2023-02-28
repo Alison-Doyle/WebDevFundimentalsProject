@@ -1,0 +1,242 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    color: #34341C;
+
+}
+
+h2 {
+
+    color: #C17667;
+    margin-bottom: 1vh;
+    font-size: 2.5vh;
+
+}
+
+/*Top Menu Styling*/
+.brand {
+
+    font-family: 'Pridi';
+    font-size: 32px;
+    color: white;
+    padding: 20px;
+    letter-spacing: 1px;
+
+}
+
+#top_navigation_bar {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #519872;
+
+}
+
+#top_navigation_links li{
+
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 20px;
+
+}
+
+#top_navigation_links a{
+
+    color: white;
+    text-decoration: none;
+    padding: 2px;
+    border-radius: 8px ;
+    transition: .3s ease;
+    transition-property: background-color, border-radius;
+
+}
+
+#top_navigation_links a:hover {
+
+    background-color: #3B5249;
+    border-radius: 8px ;
+
+}
+/* End of Top Menu Styling*/
+
+/* Page title banner styling*/
+#page_title_banner {
+
+    margin-top: 5vh;
+    background-image: url(https://images.pexels.com/photos/9907664/pexels-photo-9907664.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-size: cover;
+    height: 36vh;
+    padding: 2vh;
+}
+
+#page_title_banner article {
+
+    background-color: #C17667;
+    width: 60vh;
+    height: 8vh;
+    margin: auto;
+    border-radius: 12px;
+    text-align: center;
+    padding: 2vh;
+    margin-top: 12vh;
+
+}
+
+#page_title_banner h2 {
+
+    font-size: 6vh;
+    color: #EAE1DF;
+
+}
+
+/* End of Page title banner styling*/
+
+/*Product Styling*/
+.products{
+
+    padding: 4vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+
+}
+
+.card {
+
+    width: 16vh;
+    height: 48vh;
+    width: 254px;
+    padding: 2vh;
+    border-radius: 12px;
+    transition: 1s ease;
+    transition-property: background_color;
+
+}
+
+.card img{
+
+    height: 250px;
+    width: 250px;
+    border-radius: 12px;
+
+}
+
+.product_description {
+
+    padding: 1vh;
+    opacity: 0.8;
+
+}
+
+.product_description button {
+
+    background-color: #C17667;
+    border: #C17667;
+    border-radius: 8px;
+    width: 12vh;
+    height: 4vh;
+    color: aliceblue;
+    transition: 0.3s ease;
+    transition-property: opacity;
+
+}
+
+.product_description button:hover {
+
+    opacity: 0.8;
+
+}
+
+.title {
+
+    font-weight: bold;
+    display: flex;
+    float: inline-start;
+
+}
+
+.price {
+
+    color: #C17667;
+    display: flex;
+    float: inline-end;
+
+}
+
+/* Footer Styling*/
+footer {
+
+    background-color: #519872;
+    size: 391px;
+    padding: 2vh;
+
+}
+
+#navigation_and_info {
+
+    justify-content:space-around;
+    display: flex;
+
+}
+
+#nav_links a {
+
+    color: white;
+    text-decoration: none;
+    padding: 2px;
+    border-radius: 8px ;
+    transition: .3s ease;
+    transition-property: background-color, border-radius;
+
+}
+
+#nav_links a:hover {
+
+    background-color: #3B5249;
+    border-radius: 8px ;
+
+}
+
+#nav_links li {
+
+    list-style-type: none;
+    margin: 4px;
+
+}
+
+#socials li {
+
+    list-style-type: none;
+    padding-left: 4vh;
+
+}
+
+.social_links {
+
+    width: 32px;
+    height: 32px;
+    margin: 0.2vh;
+    background-color: #519872;
+    border: transparent;
+    border-radius: 12px;
+    transition: 0.3s ease;
+
+}
+
+.social_links:hover {
+
+    background-color: #3B5249;
+    border-radius: 12px;
+    cursor: pointer;
+
+}
+
+address {
+
+    color: white;
+
+}
+/* End of Footer Styling*/

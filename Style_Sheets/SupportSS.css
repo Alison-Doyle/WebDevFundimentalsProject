@@ -1,0 +1,93 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    color: #34341C;
+
+}
+
+h2 {
+
+    color: #C17667;
+    margin-bottom: 1vh;
+    font-size: 2.5vh;
+
+}
+
+
+/* Top Banner */
+#page_title_banner {
+
+    margin-top: 5vh;
+    margin-bottom: 8vh;
+    background-image: url(https://images.unsplash.com/photo-1596364725424-7673f05f64b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    background-position: center;
+    background-size: cover;
+    height: 36vh;
+    padding: 2vh;
+    
+}
+
+#page_title_banner article {
+
+    background-color: #C17667;
+    width: 60vh;
+    height: 8vh;
+    margin: auto;
+    border-radius: 12px;
+    text-align: center;
+    padding: 2vh;
+    margin-top: 12vh;
+
+}
+
+#page_title_banner h2 {
+
+    font-size: 6vh;
+    color: #EAE1DF;
+
+}
+
+/* End of Top Banner */
+
+/* FAQ Banner */
+#faq {
+
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5vh;
+    margin-bottom: 8vh;
+    background-color: #EAE1DF;
+    border-radius: 12px;
+    padding: 2vh;
+
+}
+
+#faq ul {
+
+    margin-left: 2vh;
+
+}
+
+#faq li {
+
+    margin-top: 1vh;
+
+}
+
+/* End of FAQ Banner */
+
+/* Contact us Banner */
+#contact_us {
+
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5vh;
+    margin-bottom: 8vh;
+    background-color: #EAE1DF;
+    border-radius: 12px;
+    padding: 2vh;
+
+}
+/* End of Contact us Banner */

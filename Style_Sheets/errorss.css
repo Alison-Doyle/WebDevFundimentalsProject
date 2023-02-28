@@ -1,0 +1,55 @@
+h2 {
+
+    opacity: 0.5;
+    font-size: 20vh;
+
+}
+
+main {
+
+    padding: 4vh;
+
+}
+
+/* Error msg stryling */
+#error_message {
+
+    text-align: center;
+    margin-top: 8vh;
+
+}
+
+#error_message h2 {
+
+    font-size: 16vh;
+    color: #c17667;
+    border-radius: 12px;
+
+}
+
+#error_message h3 {
+
+    font-size: 100%;
+
+}
+
+#error_message button {
+
+    margin-top: 2vh;
+    color: #eae1df;
+    background-color: #c17667;
+    border-radius: 12px;
+    height: 8vh;
+    width: 24vh;
+    transition: 0.3s ease;
+    border: #c17667;
+    font-size: 2vh;
+
+}
+
+#error_message button:hover {
+
+    opacity: 0.8;
+
+}
+/* End of Error msg stryling */
