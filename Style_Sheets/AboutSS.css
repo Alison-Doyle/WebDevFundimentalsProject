@@ -131,7 +131,7 @@ h2 {
 #meet_the_team {
 
     width: 75%;
-    height: 56vh;
+    height: 54vh;
     margin: auto;
     background-color: #EAE1DF;
     border-radius: 12px;
@@ -148,9 +148,14 @@ h2 {
 
 }
 
-/* End of Origins */
+iframe {
 
+    border-radius: 12px ;
+    display: block;
+    margin: auto;
+    margin-top: 4vh;
 
+}
 
 /* Footer Styling*/
 footer {
