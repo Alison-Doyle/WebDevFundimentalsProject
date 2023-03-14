@@ -111,19 +111,18 @@ h2 {
     border-radius: 12px;
     height: 40vh;
     width: 55%;
-    float: inline-start;
+    float: left;
     margin: auto;
     padding: 2vh;
 
 }
 
-#our_origins #map_placement_holder {
+#our_origins #map {
 
-    background-color: black;
     border-radius: 12px;
     height: 40vh;
     width: 35%;
-    float: inline-end;
+    float: right;
     margin: auto;
 
 }
@@ -131,7 +130,7 @@ h2 {
 #meet_the_team {
 
     width: 75%;
-    height: 54vh;
+    height: 60vh;
     margin: auto;
     background-color: #EAE1DF;
     border-radius: 12px;
