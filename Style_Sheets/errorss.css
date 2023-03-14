@@ -53,3 +53,11 @@ main {
 
 }
 /* End of Error msg stryling */
+
+footer {
+
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+
+}
