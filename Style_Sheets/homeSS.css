@@ -37,7 +37,7 @@ h2 {
     height: 24vh;
     padding: 2vh;
     margin-top: 4vh;
-    margin-left: 16vh;
+    margin-left: 12%;
     margin-bottom: 4vh;
 
 }
@@ -77,7 +77,7 @@ h2 {
 
     background-color: #EAE1DF;
     border-radius: 12px;
-    width: 147vh;
+    width: 75%;
     height: 40vh;
     padding: 2vh;
     margin: auto;
@@ -97,6 +97,7 @@ h2 {
 .card {
 
     position: relative;
+    margin: 1%;
     width: 24vh;
     height: 16vh;
     background-color: #C17667;
@@ -236,90 +237,3 @@ h2 {
     border: white;
 
 }
-
-
-
-/* End of Newsletter Sign up Styling */
-
-/* Footer Styling*/
-footer {
-
-    margin-top: 8vh;
-    background-color: #519872;
-    size: 391px;
-    padding: 2vh;
-
-}
-
-footer h3 {
-
-    color: white;
-    margin-bottom: 1vh;
-
-}
-
-#navigation_and_info {
-
-    justify-content:space-around;
-    display: flex;
-
-}
-
-#nav_links a {
-
-    color: white;
-    text-decoration: none;
-    padding: 2px;
-    border-radius: 8px ;
-    transition: .3s ease;
-    transition-property: background-color, border-radius;
-
-}
-
-#nav_links a:hover {
-
-    background-color: #3B5249;
-    border-radius: 8px ;
-
-}
-
-#nav_links li {
-
-    list-style-type: none;
-    margin: 4px;
-
-}
-
-#socials li {
-
-    list-style-type: none;
-    padding-left: 4vh;
-
-}
-
-.social_links {
-
-    width: 32px;
-    height: 32px;
-    margin: 0.2vh;
-    background-color: #519872;
-    border: transparent;
-    border-radius: 12px;
-    transition: 0.3s ease;
-
-}
-
-.social_links:hover {
-
-    background-color: #3B5249;
-    border-radius: 12px;
-    cursor: pointer;
-
-}
-
-address {
-
-    color: white;
-
-}
-/* End of Footer Styling*/
