@@ -73,19 +73,29 @@
         <section id="contact_us">
 
             <h2>Need more Assistance? Contact Us</h2>
+            <form action="submission.html" method="get">
+                <label for="name">Full Name:</label>
+                <input type="text" placeholder="John Doe" required name="name"><br>
 
-            <label>Full Name:</label>
-            <input type="text" placeholder="John Doe" required><br>
+                <label>E-Mail:</label>
+                <input type="email" placeholder="johndoe@email.com" required name="email"><br>
 
-            <label>E-Mail:</label>
-            <input type="email" placeholder="johndoe@email.com" required><br>
+                <label>Phone Number:</label>
+                <input type="tel" placeholder="123-1234-1234" id="telephone"><br>
 
-            <label>Phone Number:</label>
-            <input type="tel" placeholder="123-1234-1234"><br>
+                <label>Issue Type:</label>
+                    <ul class="issueOptions">
+                        <li><input type="checkbox">Connection to Internet<br></li>
+                        <li><input type="checkbox">Connection to App<br></li>
+                        <li><input type="checkbox">Problems with Order<br></li>
+                    </ul>
 
-            <label>Message</label>
-            <textarea cols="100" rows="6" placeholder="Enter any details here"></textarea>
+                <label for="messageDetails">Message</label>
+                <textarea name="messageDetails" cols="100" rows="6" placeholder="Enter any details here" required></textarea>
 
+                <input type="submit" name="submit" value="Submit">
+
+            </form>
         </section>
 
     </main>

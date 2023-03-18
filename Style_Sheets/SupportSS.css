@@ -90,4 +90,12 @@ h2 {
     padding: 2vh;
 
 }
+
+.issueOptions li{
+
+
+    list-style: none;
+    margin-left: 12vh;
+
+}
 /* End of Contact us Banner */

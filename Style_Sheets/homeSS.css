@@ -16,52 +16,6 @@ h2 {
 
 }
 
-/*Top Menu Styling*/
-.brand {
-
-    font-family: 'Pridi';
-    font-size: 32px;
-    color: white;
-    padding: 20px;
-    letter-spacing: 1px;
-
-}
-
-#top_navigation_bar {
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #519872;
-}
-
-#top_navigation_links li{
-
-    list-style-type: none;
-    display: inline-block;
-    padding-right: 20px;
-
-}
-
-#top_navigation_links a{
-
-    color: white;
-    text-decoration: none;
-    padding: 2px;
-    border-radius: 8px ;
-    transition: .3s ease;
-    transition-property: background-color, border-radius;
-
-}
-
-#top_navigation_links a:hover {
-
-    background-color: #3B5249;
-    border-radius: 8px ;
-
-}
-/* End of Top Menu Styling*/
-
 /* Introductory Banner Styling */
 #introductory_banner {
 
