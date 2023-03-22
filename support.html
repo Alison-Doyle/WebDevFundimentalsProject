@@ -57,15 +57,15 @@
             <h2>Check out our FAQs</h2>
             <h4>Out most popular FAQs</h4>
 
-            <ul>
+            <ol>
 
-                <li><a href="404.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit?</a></li>
-                <li><a href="404.html">Morbi lacinia vestibulum molestie. Phasellus tempor convallis arcu euismod mattis?</a></li>
-                <li><a href="404.html">Aenean viverra hendrerit ligula, id ullamcorper tortor aliquam molestie?</a></li>
-                <li><a href="404.html">Sed neque metus, rutrum nec eros et, fermentum iaculis enim?</a></li>
-                <li><a href="404.html">Duis lacinia velit et purus malesuada, sit amet mattis sem luctus?</a></li>
+                <li><a href="404.html">How can I connect my Demeter to the app?</a></li>
+                <li><a href="404.html">Why does my Demeter not turn on it's light/water my plant?</a></li>
+                <li><a href="404.html">Why can't I log into my account on the app?</a></li>
+                <li><a href="404.html">What types of plants are best suited for self-sustaining pots?</a></li>
+                <li><a href="404.html">I don't think the app data is correct. How can I recallibrate it?</a></li>
 
-            </ul>
+            </ol>
             <br>
             <h4>Can't find what you are looking for? Check out our <a href="404.html">full list of FAQs</a>.</h4>
 
@@ -74,27 +74,27 @@
         <section id="contact_us">
 
             <h2>Need more Assistance? Contact Us</h2>
-            <form action="submission.html" method="get">
-                <label>Full Name:</label>
-                <input type="text" placeholder="John Doe" required><br>
+            <form action="submission.html" id="task" method="get">
+                <label>Full Name:<span>*</span></label>
+                <input name="fullName" type="text" placeholder="John Doe" required><br>
 
-                <label>E-Mail:</label>
-                <input type="email" placeholder="johndoe@email.com" required><br>
+                <label>E-Mail:<span>*</span></label>
+                <input name="eMail" type="email" placeholder="johndoe@email.com" required><br>
 
                 <label>Phone Number:</label>
-                <input type="tel" placeholder="123-1234-1234" id="telephone"><br>
+                <input name="phoneNumber" type="tel" placeholder="123-1234-1234" id="telephone"><br>
 
-                <label>Issue Type:</label>
+                <label>Issue Type:<span>*</span></label>
                     <ul class="issueOptions">
                         <li><input type="checkbox">Connection to Internet<br></li>
                         <li><input type="checkbox">Connection to App<br></li>
                         <li><input type="checkbox">Problems with Order<br></li>
                     </ul>
 
-                <label>Message</label>
-                <textarea cols="100" rows="6" placeholder="Enter any details here" required></textarea>
+                <label>Message<span>*</span></label>
+                <textarea name="messageDetails" cols="100" rows="6" placeholder="Enter any details here" required></textarea>
 
-                <input type="submit" name="submit" value="Submit">
+                <input type="submit" id="submit" value="Submit">
 
             </form>
         </section>
@@ -150,6 +150,7 @@
         <!--Logo and disclamer-->
         <article style="text-align: center;">
             <h1 class="brand">Demeter</h1>
+            <h3 style="color: white; font-size: 12px; padding: 0%;">Site Design &copy; 2023</h3>
             <h3 style="color: white; font-size: 12px; padding: 0%;">This is a college project</h3>
         </article>
 
