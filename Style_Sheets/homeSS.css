@@ -189,7 +189,7 @@ h2 {
     background-color: #EAE1DF;
     border-radius: 12px;
     padding: 2vh;
-    width: 100vh;
+    width: 75%;
     height: 24vh;
     display: block; 
     margin: 0 auto;
@@ -202,7 +202,7 @@ h2 {
     color: #EAE1DF;
     background-color: #C17667;
     border-radius: 12px;
-    width: 56vh;
+    width: 50%;
     height: 4vh;
     padding: 2px;
     display: block; 
@@ -221,6 +221,10 @@ h2 {
 
 }
 
+#newsletter_signup div { /* Using div here bc otherwise the placeholder will be centered in input rather than input being centered */
+    text-align: center;
+}
+
 #email_prompt {
 
     margin-left: 21vh;
@@ -229,10 +233,10 @@ h2 {
 
 #email_entry {
 
-    width: 56vh;
+    width: 50%;
     height: 4vh;
+    margin: auto;
     padding: 1vh;
-    margin-left: 21vh;
     font-size: 16px;
     border-radius: 12px;
     border: white;

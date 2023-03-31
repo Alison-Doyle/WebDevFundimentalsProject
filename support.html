@@ -8,9 +8,25 @@
     <link rel="stylesheet" href="Style_Sheets/universal_styling.css">
     <style>
 
+        #submit {
+            background-color: #C17667;
+            color: white;
+            cursor: pointer;
+            font-weight: bold;
+            border: none;
+            padding: 1vh;
+            border-radius: 8px;
+            transition: .3s ease;
+        }
+
+        #submit:hover {
+            opacity: 0.8;
+        }
+
     </style>
 
     <!--Meta Data-->
+    <link rel="icon" href="Resources/favicon.ico"/>
     <title id="title" >Support | Demeter</title>
     <meta name="description" content="Get help if you are having issues with your Demeter pot">
     <meta name="keywords" content="Troubleshooting, Customer service, Product support, Maintenance tips, FAQ">
@@ -76,23 +92,23 @@
             <h2>Need more Assistance? Contact Us</h2>
             <form action="submission.html" id="task" method="get">
                 <label>Full Name:<span>*</span></label>
-                <input name="fullName" type="text" placeholder="John Doe" required><br>
+                <input name="fullName" type="text" placeholder="John Doe" required><br><br>
 
                 <label>E-Mail:<span>*</span></label>
-                <input name="eMail" type="email" placeholder="johndoe@email.com" required><br>
+                <input name="eMail" type="email" placeholder="johndoe@email.com" required><br><br>
 
                 <label>Phone Number:</label>
-                <input name="phoneNumber" type="tel" placeholder="123-1234-1234" id="telephone"><br>
+                <input name="phoneNumber" type="tel" placeholder="123-1234-1234"><br><br>
 
                 <label>Issue Type:<span>*</span></label>
-                    <ul class="issueOptions">
-                        <li><input type="checkbox">Connection to Internet<br></li>
-                        <li><input type="checkbox">Connection to App<br></li>
-                        <li><input type="checkbox">Problems with Order<br></li>
-                    </ul>
+                <ul class="issueOptions">
+                    <li><input type="radio" name="issue" value="connectionToInternet"><label style="float: right; margin-right: 1vw;">Connection to Internet</label><br></li>
+                    <li><input type="radio" name="issue" value="connectionToApp"><label style="float: right; margin-right: 1vw;">Connection to App</label><br></li>
+                    <li><input type="radio" name="issue" value="problemsWithOrder"><label style="float: right; margin-right: 1vw;">Problems with Order</label><br></li>
+                </ul>
 
-                <label>Message<span>*</span></label>
-                <textarea name="messageDetails" cols="100" rows="6" placeholder="Enter any details here" required></textarea>
+                <label>Deatils about your problem:<span>*</span></label>
+                <textarea name="messageDetails" cols="100" rows="6" placeholder="Enter any details here" required ></textarea>
 
                 <input type="submit" id="submit" value="Submit">
 

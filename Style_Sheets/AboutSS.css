@@ -130,7 +130,7 @@ h2 {
 #meet_the_team {
 
     width: 75%;
-    height: 60vh;
+    height: fit-content;
     margin: auto;
     background-color: #EAE1DF;
     border-radius: 12px;
@@ -139,19 +139,11 @@ h2 {
 
 }
 
-#meet_the_team video {
-
-    border-radius: 12px;
-    margin-top: 2vh;
-    margin-left: 25%;
-
-}
-
 iframe {
 
     border-radius: 12px ;
     display: block;
     margin: auto;
-    margin-top: 4vh;
+    margin-top: 2vh;
 
 }
