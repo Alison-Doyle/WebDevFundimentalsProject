@@ -1,12 +1,3 @@
-*{
-
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Roboto', sans-serif;
-    color: #34341C;
-
-}
-
 h2 {
 
     color: #C17667;
@@ -14,53 +5,6 @@ h2 {
     font-size: 2.5vh;
 
 }
-
-/*Top Menu Styling*/
-.brand {
-
-    font-family: 'Pridi';
-    font-size: 32px;
-    color: white;
-    padding: 20px;
-    letter-spacing: 1px;
-
-}
-
-#top_navigation_bar {
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #519872;
-
-}
-
-#top_navigation_links li{
-
-    list-style-type: none;
-    display: inline-block;
-    padding-right: 20px;
-
-}
-
-#top_navigation_links a{
-
-    color: white;
-    text-decoration: none;
-    padding: 2px;
-    border-radius: 8px ;
-    transition: .3s ease;
-    transition-property: background-color, border-radius;
-
-}
-
-#top_navigation_links a:hover {
-
-    background-color: #3B5249;
-    border-radius: 8px ;
-
-}
-/* End of Top Menu Styling*/
 
 /* Top Banner */
 #page_title_banner {
@@ -109,12 +53,12 @@ h2 {
 
     background-color: #EAE1DF;
     border-radius: 12px;
-    height: 40vh;
+    height: fit-content;
+    min-height: 40vh;
     width: 55%;
     float: left;
     margin: auto;
     padding: 2vh;
-
 }
 
 #our_origins #map {
@@ -136,6 +80,13 @@ h2 {
     border-radius: 12px;
     margin-bottom: 8vh;
     padding: 2vh;
+
+}
+
+.columnDetails {
+
+    column-count: 2;
+    column-gap: 1vh;
 
 }
 

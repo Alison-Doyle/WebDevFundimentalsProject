@@ -1,12 +1,3 @@
-*{
-
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Roboto', sans-serif;
-    color: #34341C;
-
-}
-
 h2 {
 
     color: #C17667;
@@ -14,7 +5,6 @@ h2 {
     font-size: 2.5vh;
 
 }
-
 
 /* Top Banner */
 #page_title_banner {
@@ -42,7 +32,7 @@ h2 {
 
 }
 
-#page_title_banner h2 {
+#page_title_banner h1 {
 
     font-size: 6vh;
     color: #EAE1DF;
@@ -85,7 +75,7 @@ h2 {
     margin-right: 10%;
     margin-top: 5vh;
     margin-bottom: 8vh;
-    height: fit-content;
+    height: 44vh;
     background-color: #EAE1DF;
     border-radius: 12px;
     padding: 2vh;
@@ -113,8 +103,12 @@ h2 {
     float: right;
 }
 
-.issueOptions li{
+#task textarea {
+    float: right;
+    padding: 0.5em;
+}
 
+.issueOptions li{
 
     list-style: none;
     margin-left: 14.1vh;
@@ -122,9 +116,7 @@ h2 {
 }
 
 textarea {
-    height: 10vh;
-    min-width: 70%;
-    max-width: 70%;
-    max-height: 20vh;
+    resize: none;
+    width: 100%;
 }
 /* End of Contact us Banner */
