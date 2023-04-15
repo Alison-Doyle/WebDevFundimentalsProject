@@ -69,7 +69,7 @@ h2 {
 
 .product_description {
 
-    padding: 1vh;
+    padding: 0.5vh;
     opacity: 0.8;
 
 }
@@ -98,16 +98,12 @@ h2 {
 .title {
 
     font-weight: bold;
-    display: flex;
-    float: inline-start;
 
 }
 
 .price {
 
     color: #C17667;
-    display: flex;
-    float: inline-end;
 
 }
 
